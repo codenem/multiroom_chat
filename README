@@ -1,5 +1,8 @@
 MULTIROOM CHAT
 
+This project is inspired from the work of Michael Mukhin
+Link : https://github.com/mmukhin/psitsmike_example_2
+
 Requirements: node.js
 
-Installation: run 'npm install' to install dependencies
+Installation: run 'npm install' from project root directory to install dependencies
