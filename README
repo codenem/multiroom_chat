@@ -4,8 +4,8 @@ This project is inspired from the work of Michael Mukhin
 Link : https://github.com/mmukhin/psitsmike_example_2
 Some code has been removed, some modified, and some added to implement new features.
 
-You can see the code implemented above reference project between '// ADDINGS_BEGIN' and '// ADDINGS_END' comments.
+You can see the code implemented in addition of the reference project between '// ADDINGS_BEGIN' and '// ADDINGS_END' comments.
 
 Requirements: node.js
 
-Installation: run 'npm install' from project root directory to install dependencies
+Installation: run 'npm install' from project root directory to install dependencies, and visit http://localhost:3000/
