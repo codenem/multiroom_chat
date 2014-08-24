@@ -10,7 +10,8 @@ Some code has been removed, some modified, and some added to implement new featu
 
 You can see the code implemented in addition to the reference project between `// ADDINGS_BEGIN` and `// ADDINGS_END` comments.
 
-### Requirements: node.js
+### Requirements
+node.js
 
 ### Local Installation:
 1. Run:
