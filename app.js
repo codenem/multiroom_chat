@@ -29,6 +29,7 @@ app.use(express.cookieParser('hey joe'));
 app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'lib')));
 
 // development only
 if ('development' == app.get('env')) {
@@ -37,7 +38,8 @@ if ('development' == app.get('env')) {
 
 app.get('/users', user.list);
 // ADDINGS_BEGIN
-app.get('/', routes.chat);
+app.get('/chat', routes.chat);
+app.get('/job_list', routes.job_list);
 // ADDINGS_END
 
 server.listen(app.get('port'), function(){
