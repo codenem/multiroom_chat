@@ -1,0 +1,3 @@
+[submodule "lib/job_list_app"]
+	path = lib/job_list_app
+	url = git@github.com:nemile/job_list_app.git
