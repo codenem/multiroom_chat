@@ -1,4 +1,7 @@
 // ADDINGS BEGIN
+exports.home = function (req, res) {
+  res.render('home');
+};
 exports.chat = function (req, res) {
     res.render('chat');
 };

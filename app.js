@@ -38,6 +38,7 @@ if ('development' == app.get('env')) {
 
 app.get('/users', user.list);
 // ADDINGS_BEGIN
+app.get('/', routes.home);
 app.get('/chat', routes.chat);
 app.get('/job_list', routes.job_list);
 // ADDINGS_END
