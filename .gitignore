@@ -39,3 +39,7 @@ Thumbs.db
 # node modules #
 ###############
 node_modules/*
+
+# job_list_app dependencies #
+#############################
+lib/job_list_app/js/libs/*
