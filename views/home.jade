@@ -2,13 +2,16 @@ doctype html
 html
   head
     title ARCANE SPIRE 1890
-  style
-    #container {
-      margin: 0 auto
+  style.
+    body {
+      text-align: center;
+    }
+    a {
+      display: block;
+      margin: 0 auto;
     }
   body
-    #container
-      a(href='#active' style="margin-right: 20px;")
-        = "CHAT"
-      a(href='#inactive')
-        = "JOB LIST"
+    a(href='chat')
+      = "CHAT"
+    a(href='job_list')
+      = "JOB LIST"
