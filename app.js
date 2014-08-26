@@ -28,6 +28,12 @@ app.use(express.methodOverride());
 app.use(express.cookieParser('hey joe'));
 app.use(express.session());
 app.use(app.router);
+app.use(sass.middleware({
+    src: __dirname + '/sass',
+    dest: __dirname + '/public',
+    debug: true,
+    outputStyle: 'compressed'
+}));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'lib')));
 
