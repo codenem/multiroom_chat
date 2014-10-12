@@ -15,7 +15,8 @@ node.js
 
 ### Local Installation:
 1. Run:
-```
+    ```
 npm install
-```
+    ```
+
 1. Visit `http://localhost:3000/`
